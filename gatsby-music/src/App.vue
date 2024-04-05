@@ -16,6 +16,25 @@
       @playPrevious="playPrevious"
     />
   </div>
+  <div class="playlist">
+    <ul 
+        class="fixed bottom-5 right-20 px-2 rounded-lg bg-stone-400 list-decimal">
+      <li
+        v-for="song in playlist"
+        :key="song.id"
+        @click="selectedSongIndex = song.id"
+        class="cursor-pointer ml-10 p-2 hover:bg-stone-300 rounded-lg"
+        :class="{ 'font-bold': selectedSongIndex === song.id }"
+      >
+        {{ song.songTitle }} - {{ song.artist }}
+      </li>
+    </ul>
+  </div>
+  <div class="github-link">
+    <a href="https://github.com/JakeDangIt/gatsby/tree/main/gatsby-music">
+      <img src="./assets/GitHub_Invertocat_Logo.svg.png" alt="" class="fixed h-10 bottom-0 left-0 invert">
+    </a>
+  </div>
 </template>
 
 <script setup>

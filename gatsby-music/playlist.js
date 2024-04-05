@@ -7,9 +7,9 @@ export default [
     artist: 'Ella Fitzgerald, Duke Ellington',
     bgPicture:
       'https://wallpapercave.com/wp/wp11178686.jpg',
-    gatsbyExplanation: 'Inspired by the A train line in New York City, this ',
+    gatsbyExplanation: 'This classic jazz standard perfectly demonstrates the energy and excitement of the main setting of the The Great Gatsby. The song, also directly inspired by the subway, specifically the A train line, in New York City, is greatly influenced by the culture and vibrancy in NYC shown in The Great Gatsby. Throughout the story in NYC, the characters develop relationships and delve more into and reveal their real personalities and desires, as well as their disregard for societal and lawful rules, demonstrating the sheer extravagance and wealth that the characters exude.',
     songLink: 'https://open.spotify.com/track/6noZKuR5pjlEIynqvpFPbD?si=bec94581978c4350',
-    setting: 'West Egg',
+    setting: 'New York City',
   },
   {
     id: 1,
@@ -19,7 +19,7 @@ export default [
     artist: 'Ella Fitzgerald',
     bgPicture:
       'https://static01.nyt.com/images/2011/03/14/nyregion/towns1/towns1-jumbo.jpg?quality=75&auto=webp',
-    gatsbyExplanation: 'blah',
+    gatsbyExplanation: 'This song demonstrates the refinement and elegance associated with the East Egg setting in The Great Gatsby. Fitzgerald`s smooth soothing voice with the melodic and slow instrumental reflect the sophisticated atmosphere and old money seen in the East Egg. The song`s lyrics also describe a woman of charm and grace, agreeing with class and refinement of the East Egg; however, unlike the woman in the song, the East Egg is filled with elitist aristocracy and the degradation of moral ideals unlike the woman that Fitzgerald warns to steer away from material desire.',
     songLink: 'https://open.spotify.com/track/6JZsDjymw4TXRcKYCkolWI',
     setting: 'East Egg',
   },
@@ -31,7 +31,7 @@ export default [
     artist: 'Wes Montgomery',
     bgPicture:
       'https://sophialintonmultimediaessay.files.wordpress.com/2014/07/screen-shot-2014-07-27-at-7-34-14-pm.png',
-    gatsbyExplanation: 'blah',
+    gatsbyExplanation: 'This song demonstrates the bleakness and desolation of The Great Gatsby through Montgomery`s melancholic and soulful guitar, conveying the hopelessness of the industrial wasteland in the Valley of Ashes. The American Dream has deteriorated into a nightmare, leading to the decay of morals and values, wonderfully depicted in the somber essence of Montgomery`s jazz guitar. Ultimately, the song reflects the societal corruption that the characters experience in The Great Gatsby and the consequences of unchecked ambition.',
     songLink: 'https://open.spotify.com/track/5Y8XLhYm4ZeMU25Rg24YoH?si=148febbb9cec4d25',
     setting: 'Valley of Ashes',
   },
@@ -43,7 +43,7 @@ export default [
     artist: 'Ella Fitzgerald',
     bgPicture:
       'https://househistree.com/storage/2902/conversions/Screen-Shot-2019-02-26-at-07.57.04-medium.jpg',
-    gatsbyExplanation: 'blah',
+    gatsbyExplanation: 'This song provides a fitting backdrop for Gatsby`s mansion, with its smoky and melancholic tones reflecting the mystery and longing of Gatsby, while also evoking the lavishness of Gatsby`s estate. The mansion represents the facade of wealth and luxury masking his unfufilled desires and emptiness of Gatsby`s life, as well as the juxtaposition of the lively, extravagant parties and the lonliness of Gatsby despite being surrounded by people, shown in the lonliness that Fitzgerald details in the lyrics of the song.',
     songLink: 'https://open.spotify.com/track/2Rejh16NV462TwiGGf5YNL',
     setting: 'Gatsby Mansion',
   },
