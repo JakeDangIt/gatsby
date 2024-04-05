@@ -23,9 +23,9 @@
         <span>{{ formatTime(currentTime) }} / {{ formatTime(audio.duration) }}</span>
       </div>
 
-      <div class="sidebar fixed left-20 top-20 bg-stone-600 p-4 w-1/5 h-4/5 rounded-xl">
+      <div class="sidebar fixed left-20 top-20 bg-stone-600 p-4 w-1/4 h-4/5 rounded-xl">
         <h2 class="font-bold underline text-3xl">{{ setting }}</h2>
-        <p class="mt-3">{{ gatsbyExplanation }}</p>
+        <p class="mt-3 text-sm">{{ gatsbyExplanation }}</p>
       </div>
 
       <div class="controls flex m-2 gap-4">
