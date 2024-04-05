@@ -5,7 +5,10 @@
     :style="{ backgroundImage: 'url(' + bgPicture + ')' }"
   >
     <div class="album-cover w-1/5 ml-40 mr-10">
-      <img :src="albumCover" alt="Album Cover" class="rounded-2xl" draggable="false" />
+      <a :href="songLink" target="_blank">
+
+        <img :src="albumCover" alt="Album Cover" class="rounded-2xl" draggable="false" />
+      </a>
     </div>
 
     <div class="flex flex-col">
